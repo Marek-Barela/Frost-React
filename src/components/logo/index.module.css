@@ -1,4 +1,7 @@
 .wrapper {
+  position: absolute;
+  top: 0;
+  left: 10px;
   background-color: #1abb9c;
   height: 90px;
   width: 124px;
