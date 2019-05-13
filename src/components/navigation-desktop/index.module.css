@@ -1,7 +1,7 @@
 .list {
+  display: none;
   margin: 0;
   padding: 0;
-  display: flex;
   list-style-type: none;
   height: 100%;
 }
@@ -31,4 +31,10 @@
 
 .list a:hover {
   color: #1abb9c;
+}
+
+@media (min-width: 950px) {
+  .list {
+    display: flex;
+  }
 }

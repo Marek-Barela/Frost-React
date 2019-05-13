@@ -1,3 +1,49 @@
 .list {
-  display: none;
+  position: fixed;
+  margin: 0;
+  padding: 25px 0;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background-color: #2E2E2E;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  width: 80%;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+.list a {
+  font-size: 0.55em;
+  text-transform: uppercase;
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.button {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  height: 33px;
+  width: 39px;
+  border: none;
+  background-color: #1abb9c;
+  color: white;
+  outline: 0;
+}
+
+@media (min-width: 950px) {
+  .list {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
 }
