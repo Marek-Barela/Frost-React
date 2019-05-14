@@ -1,5 +1,6 @@
 .wrapper {
-  height: 550px;
+  height: 400px;
+  padding: 0 20px;
   background-image: url('../../images//frost.jpg');
   background-size: cover;
   background-position: bottom left;
@@ -9,13 +10,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   color: #FFFFFF;
 }
 
 .layer {
   position: absolute;
   width: 100%;
-  height: 550px;
+  height: 400px;
   top: 80px;
   left: 0;
   background-color: rgba(0,0,0,0.4);
@@ -24,13 +26,13 @@
 
 .header {
   font-weight: 500;
-  font-size: 2.7em;
+  font-size: 1.3em;
   margin-bottom: 15px;
   z-index: 10;
 }
 
 .paragraph {
-  font-size: 0.7em;
+  font-size: 0.5em;
   font-weight: bold;
   letter-spacing: 1px;
   z-index: 10;
@@ -38,12 +40,12 @@
 
 .button {
   color: #FFFFFF;
-  font-size: 0.6em;
+  font-size: 0.55em;
   border: 2px solid #FFFFFF;
   background-color: transparent;
   text-transform: uppercase;
-  width: 170px;
-  height: 45px;
+  width: 140px;
+  height: 40px;
   font-weight: bold;
   transition: all 0.4s;
   cursor: pointer;
@@ -54,4 +56,38 @@
 .button:hover {
   background-color: #FFFFFF;
   color: #000000;
+}
+
+@media (min-width: 600px) {
+  .header {
+    font-size: 2em;
+  }
+
+  .paragraph { 
+    font-size: 0.6em;
+  }
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    height: 550px;
+  }
+
+  .layer {
+    height: 550px;
+  }
+  
+  .header {
+    font-size: 2.7em;
+  }
+
+  .paragraph { 
+    font-size: 0.7em;
+  }
+
+  .button {
+    width: 170px;
+    height: 45px;
+    font-size: 0.6em;
+  }
 }
