@@ -12,7 +12,6 @@ const Desktop = () => {
       <ListItem to="#About" text="About" />
       <ListItem to="#Pricing" text="Pricing" />
       <ListItem to="#Contact" text="Contact" />
-      <ListItem to="#Features" text="Features" />
     </ul>
   )
 }
