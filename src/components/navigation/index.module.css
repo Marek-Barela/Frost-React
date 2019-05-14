@@ -1,5 +1,10 @@
 .navigation {
-  position: absolute;
   right: 10px;
   top: 0;
+}
+
+@media (min-width: 950px) {
+  .navigation {
+    position: absolute;
+  }
 }

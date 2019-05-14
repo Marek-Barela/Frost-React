@@ -13,14 +13,13 @@ const Logo = ({ data }) => {
   )
 }
 
-
 export default props => (
   <StaticQuery
     query={graphql`
         query {
           logo: file(relativePath: { eq: "logo.png" }) {
             childImageSharp {
-              fixed(width: 150) {
+              fixed(width: 64) {
                 ...GatsbyImageSharpFixed
               }
             }
