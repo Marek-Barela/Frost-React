@@ -1,0 +1,40 @@
+.list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+}
+
+.list li {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-right: 1px solid rgba(255, 255, 255, 0.10)
+}
+
+.list li:first-child {
+  border-left: 1px solid rgba(255, 255, 255, 0.10)
+}
+
+.list a {
+  color: #fbfbfb;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  transition: color 0.4s;
+}
+
+.list a:hover {
+  color: #1abb9c;
+}
+
+@media (min-width: 950px) {
+  .list {
+    display: flex;
+  }
+}
