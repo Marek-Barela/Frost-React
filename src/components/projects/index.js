@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionHeader from '../section-header';
+import ProjectsContainer from '../projects-container';
 import styles from './index.module.css';
 
 const Projects = () => {
@@ -11,6 +12,7 @@ const Projects = () => {
           headerText="OUR AWESOME PROJECTS"
           paragraphText="GREAT DESIGN COMES WITH UNDERSTANDING CUSTOMER NEEDS"
         />
+        <ProjectsContainer />
       </div>
     </section>
   )
