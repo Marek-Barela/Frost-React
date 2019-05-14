@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-size: 0.8em;
+}

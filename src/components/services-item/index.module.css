@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.separator {
+  width: 50px;
+  height: 1px;
+  margin: 30px 0;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.header {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 0.7em;
+  line-height: 25px;
+  width: 90%;
+}
+
+@media (min-width: 650px) {
+  .paragraph {
+    width: 50%
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 25%;
+  }
+
+  .paragraph {
+    width: 100%
+  }
+}
