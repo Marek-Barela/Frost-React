@@ -9,10 +9,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 .button {
-  font-size: 0.65em;
+  font-size: 0.8em;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 15px;
@@ -29,4 +31,14 @@
 .button:hover {
   color: #000000;
   background-color: #FFFFFF;
+}
+
+@media (min-width: 550px) {
+  .wrapper {
+    font-size: 1em;
+  }
+
+  .button {
+    font-size: 0.65em;
+  }
 }
