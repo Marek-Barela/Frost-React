@@ -1,11 +1,15 @@
 import React from 'react';
+import ShareSectionHeader from '../buttons-section-header';
 import styles from './index.module.css';
 
 const ClickAndShare = () => {
-  const { wrapper, header, separator,buttonContainer, facebook, twitter, pin } = styles;
+  const { wrapper, separator, buttonContainer, facebook, twitter, pin } = styles;
   return (
     <section className={wrapper}>
-      <h3 className={header}>CLICK <span>&</span> SHARE THE LOVE</h3>
+      <ShareSectionHeader
+        leftText="CLICK"
+        rightText="SHARE THE LOVE"
+      />
       <span className={separator}></span>
       <div className={buttonContainer}>
         <button className={facebook}>Like</button>

@@ -11,20 +11,10 @@
   padding-top: 20px;
 }
 
-.header {
-  font-size: 1.3em;
-  color: #FFFFFF;
-  margin-bottom: 10px;
-}
-
-.header span {
-  color: #1abb9c;
-}
-
 .separator {
   height: 1px;
   background-color: #1abb9c;
-  width: 302px;
+  width: 250px;
 }
 
 .buttonContainer {
@@ -67,4 +57,10 @@
 
 .pin:hover {
   background-color:#b42831;
+}
+
+@media (min-width: 950px) {
+  .separator {
+    width: 300px;
+  }
 }
