@@ -20,13 +20,28 @@ const ProjectContainer = ({ data }) => {
         image={imgOne}
       />
       <ProjectItem
-        image={imgOne}
+        image={imgTwo}
       />
       <ProjectItem
-        image={imgOne}
+        image={imgThree}
       />
       <ProjectItem
-        image={imgOne}
+        image={imgFour}
+      />
+      <ProjectItem
+        image={imgFive}
+      />
+      <ProjectItem
+        image={imgSix}
+      />
+      <ProjectItem
+        image={imgSeven}
+      />
+      <ProjectItem
+        image={imgEight}
+      />
+      <ProjectItem
+        image={imgNine}
       />
     </div>
   )
