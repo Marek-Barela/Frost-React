@@ -17,8 +17,8 @@ class Mobile extends Component {
 
   render() {
     const { navIsOpen } = this.state;
-    const { list, listOpen, listClose, button } = styles;
-    const listStyles = navIsOpen ? `${list} ${listOpen}` : `${list} ${listClose}`
+    const { list, listOpen, button } = styles;
+    const listStyles = navIsOpen ? `${list} ${listOpen}` : list;
     return (
       <>
         <button

@@ -9,7 +9,7 @@
   text-align: left;
   width: 100%;
   background-color: transparent;
-  border: 1px solid #000000;
+  border: 1px solid #464646;
   padding: 8px 12px;
   outline: 0;
   cursor: pointer;
@@ -30,9 +30,9 @@
   max-height: 0;
   content: "";
   overflow: hidden;
-  border: 1px solid #000000;
+  border: 1px solid #464646;
   border-top: none;
-  transition: all 0.5s;
+  transition: all 0.5s ease-in-out;
 }
 
 .accordion .visible {
