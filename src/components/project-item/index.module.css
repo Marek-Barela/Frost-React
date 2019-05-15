@@ -1,0 +1,92 @@
+.wrapper {
+  width: 100%;
+  margin: 0 10%;
+}
+
+.imageWrapper {
+  position: relative;
+  margin: 0 10px 10px 10px;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1abb9c;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.layer:hover {
+  opacity: 0.8;
+}
+
+.layer span {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.imageContainer {
+  position: relative;
+  border: 10px solid #FFFFFF;
+  width: 80%;
+}
+
+.faIcon {
+  position: absolute;
+  right: -10px;
+  top: -40px;
+  display: block;
+  color: #FFFFFF;
+  cursor: pointer;
+  z-index: 1000;
+  transition: color 0.3s;
+}
+
+.faIcon:hover {
+  color: #E1E1E1;
+}
+
+@media (min-width: 450px) {
+  .wrapper {
+    margin: 0 20%;
+  }
+
+  .imageContainer {
+    width: 60%;
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 33%;
+    margin: 0;
+  }
+
+  .imageContainer {
+    width: 50%;
+  }
+} 

@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Services from "../components/services";
 import ClickAndShare from "../components/click-and-share";
+import Projects from '../components/projects';
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <Hero />
     <Services />
     <ClickAndShare />
+    <Projects />
   </Layout>
 )
 
