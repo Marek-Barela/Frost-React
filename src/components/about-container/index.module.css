@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.descriptionContainerTop, .descriptionContainerBottom {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+}
+
+.descriptionTopText {
+  width: 60%;
+}
+
+.descriptionTopImage {
+  width: 40%;
+}
+
+.descriptionContainerTop h4 {
+  font-size: 0.9em;
+}
+
+.descriptionContainerTop p {
+  font-size: 0.7em;
+}

@@ -1,3 +1,5 @@
 .wrapper {
-  padding: 80xp 0;
+  padding: 80px 0;
+  max-width: 1170px;
+  margin: 0 auto;
 }

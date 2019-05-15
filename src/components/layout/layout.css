@@ -246,6 +246,7 @@ html {
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: 'Dosis', sans-serif;
+  background-color: #FBFBFB;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
