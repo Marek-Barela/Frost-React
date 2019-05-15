@@ -4,7 +4,7 @@ import styles from './index.module.css';
 const Hero = () => {
   const { wrapper, layer, header, paragraph, button } = styles;
   return (
-    <section id="Home" className={wrapper}>
+    <section className={wrapper}>
       <div className={layer}></div>
       <h1 className={header}>
         HELLO WE'RE FROST
