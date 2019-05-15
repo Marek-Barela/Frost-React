@@ -18,30 +18,39 @@ const ProjectContainer = ({ data }) => {
     <div className={wrapper}>
       <ProjectItem
         image={imgOne}
+        projectName="Project 1"
       />
       <ProjectItem
         image={imgTwo}
+        projectName="Project 2"
       />
       <ProjectItem
         image={imgThree}
+        projectName="Project 3"
       />
       <ProjectItem
         image={imgFour}
+        projectName="Project 4"
       />
       <ProjectItem
         image={imgFive}
+        projectName="Project 5"
       />
       <ProjectItem
         image={imgSix}
+        projectName="Project 6"
       />
       <ProjectItem
         image={imgSeven}
+        projectName="Project 7"
       />
       <ProjectItem
         image={imgEight}
+        projectName="Project 8"
       />
       <ProjectItem
         image={imgNine}
+        projectName="Project 9"
       />
     </div>
   )

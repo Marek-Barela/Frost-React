@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ListItem from '../navigation-list-item';
+import Favicon from '../favicon';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import styles from './index.module.css';
 
 class Mobile extends Component {
@@ -24,6 +26,7 @@ class Mobile extends Component {
           aria-label="menu"
           onClick={() => this.switchNavbar()}
         >
+          <Favicon icon={faBars} />
         </button>
         <ul className={listStyles}>
           <ListItem to="#Home" text="Home" />

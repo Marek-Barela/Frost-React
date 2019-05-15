@@ -1,10 +1,11 @@
 .wrapper {
-  width: 33%;
+  width: 100%;
+  margin: 0 10%;
 }
 
 .imageWrapper {
   position: relative;
-  margin: 0 10px 10px 0;
+  margin: 0 10px 10px 10px;
 }
 
 .layer {
@@ -51,7 +52,7 @@
 .imageContainer {
   position: relative;
   border: 10px solid #FFFFFF;
-  width: 45%;
+  width: 80%;
 }
 
 .faIcon {
@@ -68,3 +69,24 @@
 .faIcon:hover {
   color: #E1E1E1;
 }
+
+@media (min-width: 450px) {
+  .wrapper {
+    margin: 0 20%;
+  }
+
+  .imageContainer {
+    width: 60%;
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 33%;
+    margin: 0;
+  }
+
+  .imageContainer {
+    width: 50%;
+  }
+} 

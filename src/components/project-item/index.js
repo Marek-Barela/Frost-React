@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Img from "gatsby-image";
 import Favicon from '../favicon';
+import PropTypes from 'prop-types';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import styles from './index.module.css';
 
@@ -16,7 +17,6 @@ class ProjectItem extends Component {
   }
 
   closeLightbox = () => {
-    console.log("ok")
     this.setState({
       displayLightbox: false
     })
@@ -24,14 +24,14 @@ class ProjectItem extends Component {
 
   render() {
     const { wrapper, imageWrapper, layer } = styles;
-    const { image } = this.props;
+    const { image, projectName } = this.props;
     const { displayLightbox } = this.state;
     return (
       <>
         <div className={wrapper} >
           <div className={imageWrapper} onClick={this.displayLightbox}>
             <div className={layer}>
-              <span>Click Me</span>
+              <span>{projectName}</span>
             </div>
             <Img fluid={image} />
           </div>
@@ -57,6 +57,16 @@ const Lightbox = (props) => {
       </div>
     </div>
   )
+}
+
+ProjectItem.propTypes = {
+  image: PropTypes.object.isRequired,
+  projectName: PropTypes.string.isRequired
+}
+
+Lightbox.propTypes = {
+  image: PropTypes.object.isRequired,
+  onClose: PropTypes.func.isRequired
 }
 
 export default ProjectItem
