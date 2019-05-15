@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 80px 0;
+  min-height: 380px;
+  background-image: url('../../images/parallax2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+  width: 180px;
+  height: 40px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  transition: all 0.4s;
+  outline: 0;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
