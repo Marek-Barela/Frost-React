@@ -7,9 +7,23 @@
 }
 
 .header {
+  font-size: 1.3em;
   margin-bottom: 15px;
 }
 
 .paragraph {
+  font-size: 0.65em;
+  width: 80%;
+}
+
+@media (min-width: 800px ) {
+  .header {
+    font-size: 1.6em;
+  }
+
+  
+.paragraph {
   font-size: 0.8em;
+  width: 100%;
+}
 }
