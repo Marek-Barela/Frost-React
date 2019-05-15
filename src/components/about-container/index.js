@@ -5,7 +5,6 @@ import styles from './index.module.css';
 
 const AboutContainer = () => {
   const { wrapper } = styles;
-
   return (
     <div className={wrapper}>
       <ContainerTop />
