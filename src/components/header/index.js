@@ -6,7 +6,7 @@ import styles from './index.module.css';
 const Header = () => {
   const { header, wrapper } = styles;
   return (
-    <header className={header}>
+    <header id="Home" className={header}>
       <div className={wrapper}>
         <Logo />
         <Navigation />
