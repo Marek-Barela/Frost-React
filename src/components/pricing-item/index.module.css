@@ -1,0 +1,93 @@
+.wrapper {
+  width: 100%;
+}
+
+.contentWrapper {
+  margin: 15px;
+  padding: 25px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.1);
+  transition: all 0.5s;
+}
+
+.contentWrapper:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.06)
+}
+
+.header {
+  font-size: 0.8em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.price {
+  position: relative;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #1abb9c;
+}
+
+.price::before {
+  content: "$";
+  position: absolute;
+  font-weight: bold;
+  top: 5px;
+  left: -10px;
+  font-size: 0.4em;
+}
+
+.list {
+  font-size: 0.7em;
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list li {
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 10px 0;
+}
+
+.list li:first-child {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.button {
+  font-size: 0.6em;
+  font-weight: bold;
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #1abb9c;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: 0;
+  transition: background-color 0.4s;
+}
+
+.button:hover {
+  background-color: #09aa8b;
+}
+
+@media (min-width: 400px) {
+  .wrapper {
+    padding: 0 10%;
+  }
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 50%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 25%;
+  }
+}

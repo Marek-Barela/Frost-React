@@ -1,5 +1,6 @@
 .wrapper {
-  width: 25%;
+  width: 100%;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,4 +17,17 @@
 .text {
   font-size: 0.8em;
   color: #FFFFFF;
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 25%;
+    margin-bottom: 0;
+  }
 }
