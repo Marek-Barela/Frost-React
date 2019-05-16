@@ -1,0 +1,28 @@
+.container {
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.paragraph span {
+  color: #1abb9c;
+}
+
+.paragraph span::before {
+  content: "-";
+  margin: 0 14px;
+}
+
+.bar {
+  width: 100%;
+  height: 18px;
+  border: 1px solid #1abb9c;
+}
+
+.progress {
+  background-color: #1abb9c;
+  height: 100%;
+}

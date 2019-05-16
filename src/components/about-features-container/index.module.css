@@ -1,0 +1,27 @@
+.descriptionContainer {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.descriptionContainer p {
+  font-size: 0.7em;
+  width: 100%;
+  line-height: 24px;
+}
+
+.header {
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}
+
+
+@media (min-width: 950px) {
+  .descriptionContainer {
+    width: 33.3%;
+    padding-left: 25px;
+  }
+
+  .descriptionContainer p {
+    width: 95%;
+  }
+}

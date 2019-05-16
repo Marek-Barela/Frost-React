@@ -5,6 +5,7 @@ import Services from "../components/services";
 import ClickAndShareSubsection from "../components/click-and-share";
 import Projects from '../components/projects';
 import UniqueThingsSubsection from '../components/unique-things';
+import About from '../components/about';
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <ClickAndShareSubsection />
     <Projects />
     <UniqueThingsSubsection />
+    <About />
   </Layout>
 )
 
