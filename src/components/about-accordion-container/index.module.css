@@ -1,11 +1,11 @@
 .descriptionContainer {
-  width: 33.3%;
-  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .descriptionContainer p {
   font-size: 0.7em;
-  width: 95%;
+  width: 100%;
   line-height: 24px;
 }
 
@@ -14,4 +14,14 @@
   margin-bottom: 15px;
 }
 
+@media (min-width: 950px) {
+  .descriptionContainer {
+    width: 33.3%;
+    padding: 0 10px;
+  }
+
+  .descriptionContainer p {
+    width: 95%;
+  }
+}
 
