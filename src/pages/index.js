@@ -8,6 +8,7 @@ import UniqueThingsSubsection from '../components/unique-things';
 import About from '../components/about';
 import CounterSubsection from '../components/counter-subsection';
 import Pricing from '../components/pricing';
+import QuoteSubsection from '../components/quote-subsection';
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <About />
     <CounterSubsection />
     <Pricing />
+    <QuoteSubsection />
   </Layout>
 )
 
