@@ -1,0 +1,19 @@
+.wrapper {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #1abb9c;
+}
+
+.header {
+  font-size: 1.8em;
+  color: #FFFFFF;
+  margin: 8px 0;
+}
+
+.text {
+  font-size: 0.8em;
+  color: #FFFFFF;
+}
