@@ -9,6 +9,7 @@ import About from '../components/about';
 import CounterSubsection from '../components/counter-subsection';
 import Pricing from '../components/pricing';
 import QuoteSubsection from '../components/quote-subsection';
+import Contact from '../components/contact';
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <CounterSubsection />
     <Pricing />
     <QuoteSubsection />
+    <Contact />
   </Layout>
 )
 
