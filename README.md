@@ -16,4 +16,4 @@ or
 npm gatsby develop
 ```
 ### Offline support
-Legal Firm is a Progresive Web App. You can use it even when you are offline.
+Frost is a Progresive Web App. You can use it even when you are offline.
