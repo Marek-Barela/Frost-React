@@ -5,4 +5,6 @@
   color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 2px;
+  background-color: #777777;
+  min-height: 500px;
 }
