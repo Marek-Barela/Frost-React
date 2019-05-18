@@ -9,6 +9,8 @@
 .addressWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 20px;
 }
 
@@ -26,4 +28,10 @@
 .address span {
   font-size: 1.2em;
   margin-left: 10px;
+}
+
+@media (min-width: 800px) {
+  .addressWrapper {
+    flex-direction: row;
+  }
 }

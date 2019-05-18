@@ -10,6 +10,7 @@
 .inputContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -17,6 +18,10 @@
 .nameInput, .emailInput {
   width: 100%;
   border: none;
+}
+
+.nameInput {
+  margin-bottom: 20px;
 }
 
 .nameInput input, .emailInput input, .form textarea {
@@ -32,14 +37,6 @@
 
 .nameInput input:focus, .emailInput input:focus, .form textarea:focus {
   border-bottom: 1px solid #17a78b;
-}
-
-.nameInput {
-  margin-right: 10px;
-}
-
-.emailInput {
-  margin-left: 10px;
 }
 
 .form textarea {
@@ -71,4 +68,18 @@
 
 .button:disabled {
   background-color: grey
+}
+
+@media (min-width: 650px) {
+  .inputContainer {
+    flex-direction: row;
+  }
+
+  .nameInput {
+    margin: 0 10px 0 0;
+  }
+  
+  .emailInput {
+    margin-left: 10px;
+  }
 }
