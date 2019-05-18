@@ -1,0 +1,37 @@
+.wrapper p {
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 24px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.addressWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.address {
+  font-size: 0.7em;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.address svg {
+  color: #1abb9c;
+}
+
+.address span {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+@media (min-width: 800px) {
+  .addressWrapper {
+    flex-direction: row;
+  }
+}
