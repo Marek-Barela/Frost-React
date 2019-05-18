@@ -27,6 +27,6 @@ module.exports = {
         icon: `src/images/frost.png`,
       },
     },
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
