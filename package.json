@@ -8,6 +8,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "animate.css": "^3.7.0",
+    "final-form": "^4.13.0",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -22,6 +23,7 @@
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.6",
+    "react-final-form": "^5.1.0",
     "react-helmet": "^5.2.1",
     "smooth-scroll": "^16.0.3"
   },

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 950px;
+  max-width: 900px;
   margin: 40px auto 0 auto;
 }
 
@@ -30,6 +30,10 @@
   letter-spacing: 1px;
 }
 
+.nameInput input:focus, .emailInput input:focus, .form textarea:focus {
+  border-bottom: 1px solid #17a78b;
+}
+
 .nameInput {
   margin-right: 10px;
 }
@@ -41,10 +45,15 @@
 .form textarea {
   min-height: 200px;
   resize: none;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 0 0;
+}
+
+.textarea {
+  width: 100%;
 }
 
 .button {
+  margin-top: 20px;
   font-size: 0.65em;
   font-weight: bold;
   color: #FFFFFF;
@@ -58,4 +67,8 @@
 
 .button:hover {
   background-color: #06967a;
+}
+
+.button:disabled {
+  background-color: grey
 }
