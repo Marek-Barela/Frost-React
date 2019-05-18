@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import styles from './index.module.css';
 
 const Footer = () => {
+  const { wrapper } = styles;
   return (
     <footer>
-      © {new Date().getFullYear()}
+      <div className={wrapper}>
+        © {new Date().getFullYear()}
+      </div>
     </footer>
   )
 }

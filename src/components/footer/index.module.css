@@ -1,0 +1,8 @@
+.wrapper {
+  padding: 40px 0;
+  background-color: #333333;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
