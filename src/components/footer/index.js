@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className={wrapper}>
-        © {new Date().getFullYear()}
+        © {new Date().getFullYear()} created by Marek Bareła
       </div>
     </footer>
   )
