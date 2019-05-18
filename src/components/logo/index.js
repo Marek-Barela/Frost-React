@@ -8,7 +8,9 @@ const Logo = ({ data }) => {
   const logo = data.logo.childImageSharp.fixed;
   return (
     <div className={wrapper}>
-      <Img fixed={logo} />
+      <a href="/#Home">
+        <Img fixed={logo} />
+      </a>
     </div>
   )
 }

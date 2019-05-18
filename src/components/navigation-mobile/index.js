@@ -29,12 +29,12 @@ class Mobile extends Component {
           <Favicon icon={faBars} />
         </button>
         <ul className={listStyles}>
-          <ListItem to="#Home" text="Home" />
-          <ListItem to="#Services" text="Services" />
-          <ListItem to="#Portfolio" text="Portfolio" />
-          <ListItem to="#About" text="About" />
-          <ListItem to="#Pricing" text="Pricing" />
-          <ListItem to="#Contact" text="Contact" />
+          <ListItem to="/#Home" text="Home" />
+          <ListItem to="/#Services" text="Services" />
+          <ListItem to="/#Portfolio" text="Portfolio" />
+          <ListItem to="/#About" text="About" />
+          <ListItem to="/#Pricing" text="Pricing" />
+          <ListItem to="/#Contact" text="Contact" />
         </ul>
       </>
     )
