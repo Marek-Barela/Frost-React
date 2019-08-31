@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 const ListItem = props => {
   const { to, text } = props
   return (
-    <li>
+    <li style={{cursor: "pointer"}}>
       <Link
         to={to}
         spy={true}
