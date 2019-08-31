@@ -4,10 +4,6 @@ import Header from "../header";
 import Footer from '../footer';
 import "./layout.css";
 
-if (typeof window !== "undefined") {
-  require("smooth-scroll")('a[href*="#"]')
-}
-
 const Layout = ({ children }) => (
   <>
     <Header />
